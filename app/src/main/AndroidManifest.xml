@@ -38,6 +38,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+     
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">
@@ -48,5 +49,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
