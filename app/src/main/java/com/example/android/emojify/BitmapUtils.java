@@ -99,6 +99,7 @@ class BitmapUtils {
      * @param context   The application context.
      * @param imagePath The path of the photo to be deleted.
      */
+    
     static boolean deleteImageFile(Context context, String imagePath) {
         // Get the file
         File imageFile = new File(imagePath);
