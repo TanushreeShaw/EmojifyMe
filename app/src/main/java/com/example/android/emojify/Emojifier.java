@@ -35,7 +35,6 @@ class Emojifier {
     private static final double SMILING_PROB_THRESHOLD = .15;
     private static final double EYE_OPEN_PROB_THRESHOLD = .5;
 
-
     /**
      * Method for detecting faces in a bitmap.
      *
@@ -192,7 +191,6 @@ class Emojifier {
         int newEmojiHeight = (int) (emojiBitmap.getHeight() *
                 newEmojiWidth / emojiBitmap.getWidth() * scaleFactor);
 
-
         // Scale the emoji
         emojiBitmap = Bitmap.createScaledBitmap(emojiBitmap, newEmojiWidth, newEmojiHeight, false);
 
@@ -211,7 +209,8 @@ class Emojifier {
         }
 
     // Enum for all possible Emojis
-    private enum Emoji {
+    private enum Emoji 
+    {
         SMILE,
         FROWN,
         LEFT_WINK,
