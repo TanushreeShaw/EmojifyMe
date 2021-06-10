@@ -24,5 +24,4 @@
     <style name="AppTheme.Button" parent="Widget.AppCompat.Button">
         <item name="android:topLeftRadius">30dp</item>
     </style>
-
 </resources>
